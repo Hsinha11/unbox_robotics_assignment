@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+
+# dotenv files (contains sensitive information)
+.env
+.env.local
+.env.*.local
+
+# Database files (if used locally)
+*.sql
+*.sqlite
+*.db
+*.db-wal
+*.db-shm
+
+# Build directories
+/dist/
+/build/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# React-specific
+/frontend/node_modules/
+frontend/build/
